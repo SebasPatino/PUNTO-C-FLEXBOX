@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETCOM</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <div class="section-header">
+            <div class="section-header__icon"><img src="RESOURCES/icons8-logo-50.png" alt=""></div>
+            <h2 class="section-header__title">NETCOM INGENIERÍA S.A.S.</h2>
+        </div>
+
+        <ul class="navegacion__menu">
+            <li class="navegacion__lista"><a href="index.html" class="navegacion__link">INICIO</a></li>
+            <li class="navegacion__lista"><a href="servicios.html" class="navegacion__link">SERVICIOS</a></li>
+            <li class="navegacion__lista"><a href="contacto.html" class="navegacion__link">CONTACTO</a></li>
+        </ul>
+    </nav>
+<section>
+    <h1 class="contact-section__title">FORMULARIO DE CONTACTO</h1>
+
+    <form class="contact-form">
+        <div class="contact-form__row">
+            <div class="contact-form__column">
+                <label for="Nombre" class="contact-form__label">Nombre:</label>
+                <input type="text" id="Nombre" class="contact-form__input" required>
+            </div>
+
+            <div class="contact-form__column">
+                <label for="Apellido" class="contact-form__label">Apellido:</label>
+                <input type="text" id="Apellido" class="contact-form__input" required>
+            </div>
+        </div>
+
+        <div class="contact-form__row">
+            <div class="contact-form__column">
+                <label for="Telefono" class="contact-form__label">Teléfono:</label>
+                <input type="number" id="Telefono" class="contact-form__input" required>
+            </div>
+
+            <div class="contact-form__column">
+                <label for="email" class="contact-form__label">Correo:</label>
+                <input type="email" id="email" class="contact-form__input" required>
+            </div>
+        </div>
+
+        <div class="contact-form__row">
+            <label for="Mensaje" class="contact-form__label">Mensaje:</label>
+            <textarea id="Mensaje" class="contact-form__textarea"></textarea>
+        </div>
+
+        <div class="contact-form__row contact-form__row--center">
+            <button type="submit" class="contact-form__button">Enviar</button>
+        </div>
+    </form>
+</section>
+</body>
+</html>

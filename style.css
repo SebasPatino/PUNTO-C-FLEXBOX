@@ -1,0 +1,126 @@
+.section-header {
+  display: flex;
+  justify-content: space-around; /* Ícono a la izquierda, texto a la derecha */
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #ced3da;
+  border-radius: 8px;
+  
+}
+
+.section-header__icon {
+  font-size: 24px;
+  color: #0077cc;
+}
+
+.section-header__title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+  padding-left: 200px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ced3da;
+  color: #ffffff;
+}
+
+.navegacion__menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navegacion__lista {
+  cursor: pointer;
+}
+
+.navegacion__link {
+  color: #051bdf;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navegacion__link:hover {
+  text-decoration: overline;
+  color: rgb(13, 118, 126);
+  
+}
+
+body {
+  background-color: rgba(0, 255, 255, 0.26);
+}
+
+.product-section__title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  color: #000000;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.product-card__image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.product-card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-card__title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card__description {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.product-card__button {
+  padding: 0.5rem 1rem;
+  background-color: #0051bdff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card__button:hover {
+  background-color: #223a55;
+}

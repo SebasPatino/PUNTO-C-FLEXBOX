@@ -1,0 +1,134 @@
+.section-header {
+  display: flex;
+  justify-content: space-between; /* Ícono a la izquierda, texto a la derecha */
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #ced3da;
+  border-radius: 8px;
+  padding-left: 300px;
+}
+
+.section-header__icon {
+  font-size: 24px;
+  color: #0077cc;
+  padding-right: 20px;
+}
+
+.section-header__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ced3da;
+  color: #ffffff;
+}
+
+.navegacion__menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navegacion__lista {
+  cursor: pointer;
+}
+
+.navegacion__link {
+  color: #051bdf;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navegacion__link:hover {
+  text-decoration: overline;
+  color: rgb(13, 118, 126);
+  
+}
+
+body {
+  background-color: rgba(0, 255, 255, 0.26);
+}
+
+.contact-section__title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  color: #000000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form__row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-form__column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form__textarea {
+  resize: vertical;
+  min-height: 50px;
+  min-width: 494px;
+}
+
+.contact-form__row--center {
+  justify-content: center;
+}
+
+.contact-form__button {
+  padding: 0.5rem 1rem;
+  background-color: #0051bdff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form__button:hover {
+  background-color: #223a55;
+}
+
+input:focus {
+  border-color: rgb(0, 102, 255);
+  outline: none;
+}
+
+textarea:focus {
+  border-color: rgb(0, 102, 255);
+  outline: none;
+}
